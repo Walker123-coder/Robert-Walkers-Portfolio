@@ -1,9 +1,9 @@
 /*Defining colours that are used multiple times*/
 :root {
-  --header-color: rgb(106, 128, 161);
+  --header-color: rgb(62, 91, 136);
   --main-color: rgba(114, 112, 199, 0.637);
-  --text-color: rgb(255, 255, 255);
-  --color-pink: #edaafd;
+  --text-color: rgb(233, 221, 221);
+  --color-purple: #533c94;
   --color-black: black;
 }
 
@@ -30,11 +30,11 @@ header {
   font-weight: bolder;
   margin: 2px;
   padding: 2px;
-  font-size: 60px;
+  font-size: 100px;
   padding-left: 10%;
   font-family: Georgia, 'Times New Roman', Times, serif;
   text-decoration-line: underline;
-  text-shadow: 2px 2px 5px rgb(168, 49, 231);
+  text-shadow: 2px 2px 5px rgb(55, 45, 116);
 }
 
 /*Styles and addresses the navigation bar*/
@@ -69,7 +69,7 @@ nav a:hover {
 
 /*Sets the main image on the page and defines its resolution*/
 .hero img {
-  width: 50%;
+  width: 100%;
 }
 
 /*Styles and defines the about-me container*/
@@ -88,7 +88,7 @@ nav a:hover {
   width: 20%;
   float: left;
   padding: 10px;
-  border-right: rgba(105, 103, 228, 0.637) solid 5px;
+  border-right: rgba(6, 6, 7, 0.637) solid 5px;
 }
 
 .About-me .column2 {
@@ -120,14 +120,14 @@ nav a:hover {
 
 .My-Projects .column1 {
   width: 50%;
-  float: middle;
+  float: left;
   padding: 10px;
   border-right: rgba(105, 103, 228, 0.637) solid 5px;
 }
 
 .My-Projects .column2 {
   width: 50%;
-  float: middle;
+  float: right;
   padding: 10px;
   height: 100%;
 }
@@ -155,7 +155,7 @@ nav a:hover {
   position: absolute;
   top: 40%;
   left: 1%;
-  background-color: rgb(180, 51, 255);
+  background-color: rgb(29, 38, 126);
   font-size: 30px;
   margin: 3px;
   padding: 5px;
@@ -181,7 +181,7 @@ nav a:hover {
 /*Addresses all smaller pictures and text within the container*/
 .card-sub {
   display: flex;
-  flex-wrap: wrap;
+  flex: wrap;
   justify-content: flex-start;
   padding: 10px;
 }
@@ -209,7 +209,7 @@ nav a:hover {
 }
 
 #text1 {
-  background-color: rgb(0, 255, 221);
+  background-color: rgb(76, 83, 150);
   color: var(--color-black);
 }
 
@@ -284,15 +284,10 @@ nav a:hover {
 .footer a:hover,
 .footer p:hover {
   border: solid 3px var(--color-black);
-  background-color: rgb(252, 155, 203);
+  background-color: rgb(78, 86, 110);
   cursor: pointer;
 }
 
-/*Place icon by using a pseudo-element behind the text*/
-
-.footer #git:after {
-  content: url(pictures\mylocalweather.png);
-} 
 
 
 /*Responsive layout for larger devices such as an Ipad*/
@@ -334,7 +329,7 @@ nav a:hover {
   /*Changing the font size of the headline to a smaller one*/
   .My-Projects .column1 h1,
   .About-me .column1 h1 {
-      font-size: 30px;
+      font-size: 50px;
   }
   
   .About-me .column2 {
@@ -403,7 +398,7 @@ nav a:hover {
   .content-My-Projects,
   .content-Aboutme,
   main {
-      display: block;
+      display: table-row;
       width: 100%;
   }
   
@@ -411,12 +406,14 @@ nav a:hover {
   .card-main img {
       width: 300px;
       height: 200px;
+      object-fit: contain
   }
   
   .card {
       display: block;
       width: 300px;
       height: 200px; 
+      object-fit: contain;
   }
   
   /*Changing the text-main as the screen gets smaller*/
