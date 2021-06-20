@@ -141,8 +141,8 @@ nav a:hover {
 }
 
 .card-main img {
-  width: 50%;
-  height: 50%;
+  width: 30%;
+  height: 30%;
   
   margin: 10px;
   border: solid 10px rgb(118, 131, 255);
@@ -398,7 +398,7 @@ nav a:hover {
   .content-My-Projects,
   .content-Aboutme,
   main {
-      display: table-row;
+      display: block;
       width: 100%;
   }
   
@@ -406,14 +406,14 @@ nav a:hover {
   .card-main img {
       width: 300px;
       height: 200px;
-      object-fit: contain
+  
   }
   
   .card {
       display: block;
       width: 300px;
       height: 200px; 
-      object-fit: contain;
+    
   }
   
   /*Changing the text-main as the screen gets smaller*/
