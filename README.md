@@ -6,4 +6,12 @@
 6. My unfinished projects are smaller images and have been placed under horiseon.
 7. The web page is reponsive to all devices. 
 My contact details are in the footer of the page.
+
+
+
+
+
+
+
+
 ![image](https://user-images.githubusercontent.com/82131650/122902175-9d6fca80-d391-11eb-8ac8-30bd68eb950b.png)
