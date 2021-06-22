@@ -301,7 +301,7 @@ nav a:hover {
 
   /*Changing the styling of the navigation bar items*/
   nav a {
-      color: floralwhite;
+      color: rgb(131, 103, 48);
       font-weight: bolder;
       text-decoration-line: none;
       padding: 7px;
@@ -396,7 +396,7 @@ nav a:hover {
   
   /*Define most elements as block elements*/
   .content-My-Projects,
-  .content-Aboutme,
+  .content-About-me,
   main {
       display: block;
       width: 100%;
