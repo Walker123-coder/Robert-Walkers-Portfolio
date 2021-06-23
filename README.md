@@ -1,6 +1,7 @@
 ## General information
 The finished project is a portfolio to introduce myself and my work to potential employers showcasing what ive learnt so far.
-This is the url of my portfoliohttps://github.com/Walker123-coder/Robert-Walkers-Portfolio
+This is the url of my portfolio https://github.com/Walker123-coder/Robert-Walkers-Portfolio
+
 ## Table of contents
 1. General information.
 2. Task description.
